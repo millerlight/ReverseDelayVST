@@ -1,0 +1,35 @@
+# --- Alles top-level ignorieren ---
+/*
+
+# --- Git-Metadaten & Doku trotzdem mitnehmen ---
+!.gitignore
+!.gitattributes
+!.gitmodules
+!README.md
+!LICENSE
+!README.*
+!LICENSE.*
+
+# --- Quellcode/Projektdateien erlauben ---
+!ReverseDelayVST.jucer
+!CMakeLists.txt
+!/Source/
+!/Source/**
+!/Resources/
+!/Resources/**
+!/scripts/
+!/scripts/**
+
+# --- Elternpfade für das EINE VST3-Bundle freigeben ---
+!Builds/
+!Builds/VisualStudio2022/
+!Builds/VisualStudio2022/x64/
+!Builds/VisualStudio2022/x64/Release/
+!Builds/VisualStudio2022/x64/Release/VST3/
+
+# Erst alles darunter wieder ignorieren …
+/Builds/VisualStudio2022/x64/Release/VST3/*
+
+# … und dann NUR DEIN BUNDLE erlauben
+!/Builds/VisualStudio2022/x64/Release/VST3/ReverseDelayVST.vst3/
+!/Builds/VisualStudio2022/x64/Release/VST3/ReverseDelayVST.vst3/**
