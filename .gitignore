@@ -21,16 +21,4 @@
 !/scripts/**
 !/VST/**
 
-# --- Elternpfade für das EINE VST3-Bundle freigeben ---
-!Builds/
-!Builds/VisualStudio2022/
-!Builds/VisualStudio2022/x64/
-!Builds/VisualStudio2022/x64/Release/
-!Builds/VisualStudio2022/x64/Release/VST3/
 
-# Erst alles darunter wieder ignorieren …
-/Builds/VisualStudio2022/x64/Release/VST3/*
-
-# … und dann NUR DEIN BUNDLE erlauben
-!/Builds/VisualStudio2022/x64/Release/VST3/ReverseDelayVST.vst3/
-!/Builds/VisualStudio2022/x64/Release/VST3/ReverseDelayVST.vst3/**
