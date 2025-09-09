@@ -19,6 +19,7 @@
 !/Resources/**
 !/scripts/
 !/scripts/**
+!/VST/**
 
 # --- Elternpfade für das EINE VST3-Bundle freigeben ---
 !Builds/

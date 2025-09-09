@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="CFI6DL" name="ReverseDelayVST" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyWebsite="universalien.de"
-              companyCopyright="copyright universalien 2025" companyName="universalien">
+              companyCopyright="copyright universalien 2025" companyName="universalien"
+              pluginVST3Category="Delay">
   <MAINGROUP id="CAYRlM" name="ReverseDelayVST">
     <GROUP id="{60AC13B2-64CB-6C58-42EA-2BFFEBCAAFC3}" name="Source">
       <FILE id="TtJPpW" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -53,4 +54,3 @@
     </VS2022>
   </EXPORTFORMATS>
 </JUCERPROJECT>
-
